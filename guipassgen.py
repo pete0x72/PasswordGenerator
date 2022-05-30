@@ -229,7 +229,7 @@ def switch():
                             width = 19)
         uCase.place(relx = 0.1, rely = 0.33)
 
-        nums = Checkbutton( text = "Include numbers",
+        nums = Checkbutton( text = "Include numbers  ",
                             font = fontStyle,
                             bg = "#FFA8A8",
                             activebackground="#FFCDDD",
@@ -242,7 +242,7 @@ def switch():
                             width = 19)
         nums.place(relx = 0.1, rely = 0.43)
 
-        syms = Checkbutton( text = "Include symbols",
+        syms = Checkbutton( text = "Include symbols  ",
                             font = fontStyle,
                             bg = "#FFA8A8",
                             activebackground="#FFCDDD",
@@ -332,7 +332,7 @@ def switch():
                             width = 19)
         uCase.place(relx = 0.1, rely = 0.33)
 
-        nums = Checkbutton( text = "Include numbers",
+        nums = Checkbutton( text = "Include numbers  ",
                             font = fontStyle,
                             bg = "#228637",
                             activebackground="#2FA143",
@@ -345,7 +345,7 @@ def switch():
                             width = 19)
         nums.place(relx = 0.1, rely = 0.43)
 
-        syms = Checkbutton( text = "Include symbols",
+        syms = Checkbutton( text = "Include symbols  ",
                             font = fontStyle,
                             bg = "#228637",
                             activebackground="#2FA143",
