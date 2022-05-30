@@ -58,7 +58,7 @@ lenLabel = Label(root,  text="Password Length:",
                         font=fontStyle,
                         fg = "#C6CFD7",
                         bg = "#161B22")
-lenLabel.place(relx = 0.2, rely = 0.10)
+lenLabel.place(relx = 0.1, rely = 0.10)
 
 lenEntry = Entry(root,  font=fontStyle,
                         width = 5,
@@ -66,7 +66,7 @@ lenEntry = Entry(root,  font=fontStyle,
                         bd = 3,
                         justify =CENTER,
                         relief = SUNKEN)
-lenEntry.place(relx=0.53, rely = 0.10)
+lenEntry.place(relx=0.405, rely = 0.10)
 
 lCase = Checkbutton(text = "Include lowercase",
                     font = fontStyle,
@@ -77,7 +77,8 @@ lCase = Checkbutton(text = "Include lowercase",
                     selectcolor="black",
                     relief = SUNKEN,
                     cursor = "hand2",
-                    variable = a)
+                    variable = a,
+                    width = 19)
 lCase.place(relx = 0.1, rely = 0.23)
 
 uCase = Checkbutton(text = "Include uppercase",
@@ -89,10 +90,11 @@ uCase = Checkbutton(text = "Include uppercase",
                     selectcolor="black",
                     relief = SUNKEN,
                     cursor = "hand2",
-                    variable = b)
+                    variable = b,
+                    width = 19)
 uCase.place(relx = 0.1, rely = 0.33)
 
-nums = Checkbutton( text = "Include numbers",
+nums = Checkbutton( text = "Include numbers  ",
                     font = fontStyle,
                     bg = "#228637",
                     activebackground="#2FA143", 
@@ -101,10 +103,11 @@ nums = Checkbutton( text = "Include numbers",
                     selectcolor="black",
                     relief = SUNKEN,
                     cursor = "hand2",
-                    variable = c)
+                    variable = c,
+                    width = 19)
 nums.place(relx = 0.1, rely = 0.43)
 
-syms = Checkbutton( text = "Include symbols",
+syms = Checkbutton( text = "Include symbols  ",
                     font = fontStyle,
                     bg = "#228637",
                     activebackground="#2FA143", 
@@ -113,7 +116,8 @@ syms = Checkbutton( text = "Include symbols",
                     selectcolor="black",
                     relief = SUNKEN,
                     cursor = "hand2",
-                    variable = d)
+                    variable = d,
+                    width = 19)
 syms.place(relx = 0.1, rely = 0.53)
 
 generatedLabel = Label(root,text= "Your password:",
@@ -189,7 +193,7 @@ def switch():
                                 font=fontStyle,
                                 fg = "black",
                                 bg = "#FFF7BC")
-        lenLabel.place(relx = 0.2, rely = 0.10)
+        lenLabel.place(relx = 0.1, rely = 0.10)
 
         lenEntry = Entry(root,  font=fontStyle,
                                 width = 5,
@@ -197,7 +201,7 @@ def switch():
                                 bd = 3,
                                 justify =CENTER,
                                 relief = SUNKEN)
-        lenEntry.place(relx=0.53, rely = 0.10)
+        lenEntry.place(relx=0.405, rely = 0.10)
 
         lCase = Checkbutton(text = "Include lowercase",
                             font = fontStyle,
@@ -208,7 +212,8 @@ def switch():
                             selectcolor="white",
                             relief = SUNKEN,
                             cursor = "hand2",
-                            variable = a)
+                            variable = a,
+                            width = 19)
         lCase.place(relx = 0.1, rely = 0.23)
 
         uCase = Checkbutton(text = "Include uppercase",
@@ -220,7 +225,8 @@ def switch():
                             selectcolor="white",
                             relief = SUNKEN,
                             cursor = "hand2",
-                            variable = b)
+                            variable = b,
+                            width = 19)
         uCase.place(relx = 0.1, rely = 0.33)
 
         nums = Checkbutton( text = "Include numbers",
@@ -232,7 +238,8 @@ def switch():
                             selectcolor="white",
                             relief = SUNKEN,
                             cursor = "hand2",
-                            variable = c)
+                            variable = c,
+                            width = 19)
         nums.place(relx = 0.1, rely = 0.43)
 
         syms = Checkbutton( text = "Include symbols",
@@ -244,7 +251,8 @@ def switch():
                             selectcolor="white",
                             relief = SUNKEN,
                             cursor = "hand2",
-                            variable = d)
+                            variable = d,
+                            width = 19)
         syms.place(relx = 0.1, rely = 0.53)
 
         generatedLabel = Label(root,text= "Your password:",
@@ -288,7 +296,7 @@ def switch():
                                 font=fontStyle,
                                 fg = "#C6CFD7",
                                 bg = "#161B22")
-        lenLabel.place(relx = 0.2, rely = 0.10)
+        lenLabel.place(relx = 0.1, rely = 0.10)
 
         lenEntry = Entry(root,  font=fontStyle,
                                 width = 5,
@@ -296,7 +304,7 @@ def switch():
                                 bd = 3,
                                 justify =CENTER,
                                 relief = SUNKEN)
-        lenEntry.place(relx=0.53, rely = 0.10)
+        lenEntry.place(relx=0.405, rely = 0.10)
 
         lCase = Checkbutton(text = "Include lowercase",
                             font = fontStyle,
@@ -307,7 +315,8 @@ def switch():
                             selectcolor="black",
                             relief = SUNKEN,
                             cursor = "hand2",
-                            variable = a)
+                            variable = a,
+                            width = 19)
         lCase.place(relx = 0.1, rely = 0.23)
 
         uCase = Checkbutton(text = "Include uppercase",
@@ -319,7 +328,8 @@ def switch():
                             selectcolor="black",
                             relief = SUNKEN,
                             cursor = "hand2",
-                            variable = b)
+                            variable = b,
+                            width = 19)
         uCase.place(relx = 0.1, rely = 0.33)
 
         nums = Checkbutton( text = "Include numbers",
@@ -331,7 +341,8 @@ def switch():
                             selectcolor="black",
                             relief = SUNKEN,
                             cursor = "hand2",
-                            variable = c)
+                            variable = c,
+                            width = 19)
         nums.place(relx = 0.1, rely = 0.43)
 
         syms = Checkbutton( text = "Include symbols",
@@ -343,7 +354,8 @@ def switch():
                             selectcolor="black",
                             relief = SUNKEN,
                             cursor = "hand2",
-                            variable = d)
+                            variable = d,
+                            width = 19)
         syms.place(relx = 0.1, rely = 0.53)
 
         generatedLabel = Label(root,text= "Your password:",
