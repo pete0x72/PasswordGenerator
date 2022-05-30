@@ -187,8 +187,8 @@ def switch():
 
 
 
-on = PhotoImage(file = "on.png")
-off = PhotoImage(file = "off.png")
+on = PhotoImage(file = "assets/on.png")
+off = PhotoImage(file = "assets/off.png")
  
 on_button = Button(root, bg = "#161B22", activebackground="#161B22", image = on, bd = 0,
                    command = switch)
